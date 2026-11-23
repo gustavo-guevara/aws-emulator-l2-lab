@@ -1,0 +1,10 @@
+#cloud-config
+# Base packages for the lab VM. The emulator itself is installed by scripts/install.sh.
+package_update: true
+packages:
+  - curl
+  - unzip
+  - jq
+  - git
+  - python3-venv
+  - python3-pip
