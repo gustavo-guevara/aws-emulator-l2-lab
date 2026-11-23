@@ -1,5 +1,7 @@
 # AWS Emulator L2 Support Lab
 
+**Tested on:** AWS Emulator 1.0.545 · AWS CLI 2.42 · Ubuntu 24.04 arm64 (Multipass on Apple M2)
+
 A hands-on production-support lab: a small claims-processing pipeline running on
 **AWS Emulator** (AWS's official local emulator of its APIs) inside a **Multipass** Ubuntu VM.
 No AWS account, no cloud bill, nothing that can touch real infrastructure.
